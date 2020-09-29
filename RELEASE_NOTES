@@ -46,6 +46,8 @@ HIGHLIGHTS
     to the SLURM_CONF environment variable).
  -- SPANK - call slurm_spank_init if defined without slurm_spank_slurmd_exit in
     slurmd context.
+ -- Remove SLURM_DIST_LLLP environment variable in favor of just
+    SLURM_DISTRIBUTION.
 
 CONFIGURATION FILE CHANGES (see man appropriate man page for details)
 =====================================================================
