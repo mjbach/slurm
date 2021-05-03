@@ -873,7 +873,7 @@ enum node_states {
 					  * configure a node */
 #define NODE_STATE_MAINT      0x00008000 /* node in maintenance reservation */
 #define NODE_STATE_REBOOT_REQUESTED 0x00010000 /* node reboot requested */
-#define NODE_STATE_CANCEL_REBOOT 0x00020000 /* cancel pending reboot */
+#define NODE_STATE_REBOOT_CANCEL 0x00020000 /* cancel pending reboot */
 #define NODE_STATE_POWERING_DOWN 0x00040000 /* node is powering down */
 #define NODE_STATE_DYNAMIC       0x00080000 /* node is dynamically assigned */
 #define NODE_STATE_REBOOT_ISSUED 0x00100000 /* node reboot passed to agent */

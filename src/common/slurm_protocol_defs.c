@@ -3564,7 +3564,7 @@ extern char *node_state_string(uint32_t inx)
 
 	if (inx == NODE_STATE_REBOOT_ISSUED)
 		return "REBOOT^";
-	if (inx == NODE_STATE_CANCEL_REBOOT)
+	if (inx == NODE_STATE_REBOOT_CANCEL)
 		return "CANCEL_REBOOT";
 	if (inx == NODE_STATE_CLOUD)
 		return "CLOUD";
@@ -3783,7 +3783,7 @@ extern char *node_state_string_compact(uint32_t inx)
 
 	if (inx == NODE_STATE_REBOOT_ISSUED)
 		return "BOOT^";
-	if (inx == NODE_STATE_CANCEL_REBOOT)
+	if (inx == NODE_STATE_REBOOT_CANCEL)
 		return "CANC_R";
 	if (inx == NODE_STATE_CLOUD)
 		return "CLOUD";
