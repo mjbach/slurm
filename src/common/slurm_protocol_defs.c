@@ -3482,7 +3482,7 @@ extern char *node_state_string(uint32_t inx)
 	bool fail_flag       = (inx & NODE_STATE_FAIL);
 	bool maint_flag      = (inx & NODE_STATE_MAINT);
 	bool net_flag        = (inx & NODE_STATE_NET);
-	bool reboot_flag     = (inx & NODE_STATE_REBOOT);
+	bool reboot_flag     = (inx & NODE_STATE_REBOOT_REQUESTED);
 	bool reboot_issued_flag = (inx & NODE_STATE_REBOOT_ISSUED);
 	bool res_flag        = (inx & NODE_STATE_RES);
 	bool resume_flag     = (inx & NODE_RESUME);
@@ -3700,7 +3700,7 @@ extern char *node_state_string_compact(uint32_t inx)
 	bool fail_flag       = (inx & NODE_STATE_FAIL);
 	bool maint_flag      = (inx & NODE_STATE_MAINT);
 	bool net_flag        = (inx & NODE_STATE_NET);
-	bool reboot_flag     = (inx & NODE_STATE_REBOOT);
+	bool reboot_flag     = (inx & NODE_STATE_REBOOT_REQUESTED);
 	bool reboot_issued_flag = (inx & NODE_STATE_REBOOT_ISSUED);
 	bool res_flag        = (inx & NODE_STATE_RES);
 	bool resume_flag     = (inx & NODE_RESUME);
